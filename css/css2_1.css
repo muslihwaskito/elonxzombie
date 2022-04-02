@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vqPQA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_7PqPQA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_AP2PQA.woff) format('woff');
+}
