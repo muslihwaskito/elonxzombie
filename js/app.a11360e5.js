@@ -5998,25 +5998,6 @@
                                       [a("span", [t._v("Roadmap")])]
                                     ),
                                     t._m(1),
-                                    a(
-                                      "a",
-                                      {
-                                        staticClass: "int-navbar-menu-item",
-                                        attrs: {
-                                          href: "/dapp/lootboxes",
-                                        },
-                                        on: {
-                                          click: function (e) {
-                                            return (
-                                              e.stopPropagation(),
-                                              e.preventDefault(),
-                                              t.go_to("LootBoxes")
-                                            );
-                                          },
-                                        },
-                                      },
-                                      [a("span", [t._v("Lootboxes")])]
-                                    ),
                                   ]
                                 )
                               : t._e(),
@@ -6525,7 +6506,7 @@
             {
               staticClass: "int-navbar-menu-item",
               attrs: {
-                href: "https://docs.beasties.online/",
+                href: "https://medium.com/@ElonXZombie",
                 target: "_blank",
               },
             },
