@@ -7326,6 +7326,10 @@ screen and (min-width:769px) {
         font-size: 70px !important;
         font-weight: bold !important;
     }
+
+    body {
+        background-image: url(/img/background-6.jpg);
+    }
 }
 
 .hero-img-main {
@@ -7338,4 +7342,8 @@ screen and (min-width:769px) {
     font-size: 16px;
     line-height: 21px;
     color: #007aff;
+}
+
+.text-color-dark {
+    color: #32445f;
 }

@@ -9085,6 +9085,936 @@
                                                       ),
                                                     ]
                                                   ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt1"),
+                                                              title:
+                                                                "Coin pedia",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt2"),
+                                                              title:
+                                                                "PooCoint",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt3"),
+                                                              title:
+                                                                "Cryptomode",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt4"),
+                                                              title:
+                                                                "Tcu",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt5"),
+                                                              title:
+                                                                "GQ",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt6"),
+                                                              title:
+                                                                "Dream Boat",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt7"),
+                                                              title:
+                                                                "J Capital Investment",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt8"),
+                                                              title:
+                                                                "Black Dragon",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt9"),
+                                                              title:
+                                                                "Belo Baba",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt10"),
+                                                              title:
+                                                                "Dext Force",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt11"),
+                                                              title:
+                                                                "Stredium",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt12"),
+                                                              title:
+                                                                "EthicHub",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt13"),
+                                                              title:
+                                                                "Yellow Block",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt14"),
+                                                              title:
+                                                                "0",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt15"),
+                                                              title:
+                                                                "BAS",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt16"),
+                                                              title:
+                                                                "Avalon Wealth Club",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt17"),
+                                                              title:
+                                                                "Excalibur Capital",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt18"),
+                                                              title:
+                                                                "Ror Play",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt19"),
+                                                              title:
+                                                                "Bit Base",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt20"),
+                                                              title:
+                                                                "Job and Play",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt21"),
+                                                              title:
+                                                                "Game Dis",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt22"),
+                                                              title:
+                                                                "Leit Motiv",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt23"),
+                                                              title:
+                                                                "BCA Investment",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt24"),
+                                                              title:
+                                                                "Gains Associates",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt25"),
+                                                              title:
+                                                                "The Bit TImes",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt26"),
+                                                              title:
+                                                                "Anyswap",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt27"),
+                                                              title:
+                                                                "BSCswap",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt28"),
+                                                              title:
+                                                                "BSCStation Swap",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt29"),
+                                                              title:
+                                                                "Mdex",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt30"),
+                                                              title:
+                                                                "Pancakeswap",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
                                                 ]
                                               ),
                                             ]
@@ -9178,6 +10108,170 @@
                                     a(
                                       "div",
                                       {
+                                        staticClass: "mb-features-first-row",
+                                      },
+                                      [
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-small-card mb-feature wow animate__fadeInUp",
+                                            attrs: {
+                                              "data-wow-delay": "0.2s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "div",
+                                              {
+                                                staticClass: "int-card-inner",
+                                              },
+                                              [
+                                                a("img", {
+                                                  directives: [
+                                                    {
+                                                      name: "lazy",
+                                                      rawName: "v-lazy",
+                                                      value:
+                                                        t.images["icon_key"],
+                                                      expression:
+                                                        "images['icon_key']",
+                                                    },
+                                                  ],
+                                                }),
+                                                a(
+                                                  "h4",
+                                                  {
+                                                    staticClass:
+                                                      "int-display-4 int-text-color-medium-purple mt-30px",
+                                                  },
+                                                  [t._v("True Ownership")]
+                                                ),
+                                                a(
+                                                  "p",
+                                                  {
+                                                    staticClass:
+                                                      "int-text-color-dark-4 mt-15px text-color-dark",
+                                                  },
+                                                  [
+                                                    t._v(
+                                                      "Every item or character you own in the game is 100%\nyours and stored on the blockchain.\nYou can exchange or transfer it to anyone at any time"
+                                                    ),
+                                                  ]
+                                                ),
+                                              ]
+                                            ),
+                                          ]
+                                        ),
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-small-card mb-feature wow animate__fadeInUp",
+                                            attrs: {
+                                              "data-wow-delay": "0.3s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "div",
+                                              {
+                                                staticClass: "int-card-inner",
+                                              },
+                                              [
+                                                a("img", {
+                                                  directives: [
+                                                    {
+                                                      name: "lazy",
+                                                      rawName: "v-lazy",
+                                                      value:
+                                                        t.images["icon_hands"],
+                                                      expression:
+                                                        "images['icon_hands']",
+                                                    },
+                                                  ],
+                                                }),
+                                                a(
+                                                  "h4",
+                                                  {
+                                                    staticClass:
+                                                      "int-display-4 int-text-color-medium-purple mt-30px",
+                                                  },
+                                                  [t._v("Marketplace")]
+                                                ),
+                                                a(
+                                                  "p",
+                                                  {
+                                                    staticClass:
+                                                      "int-text-color-dark-4 mt-15px text-color-dark",
+                                                  },
+                                                  [
+                                                    t._v(
+                                                      "You will be able to trade on any marketplaces that support NFT's.\nAnd we are also working on our own marketplace"
+                                                    ),
+                                                  ]
+                                                ),
+                                              ]
+                                            ),
+                                          ]
+                                        ),
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-small-card mb-feature wow animate__fadeInUp",
+                                            attrs: {
+                                              "data-wow-delay": "0.4s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "div",
+                                              {
+                                                staticClass: "int-card-inner",
+                                              },
+                                              [
+                                                a("img", {
+                                                  directives: [
+                                                    {
+                                                      name: "lazy",
+                                                      rawName: "v-lazy",
+                                                      value:
+                                                        t.images["icon_trophy"],
+                                                      expression:
+                                                        "images['icon_trophy']",
+                                                    },
+                                                  ],
+                                                }),
+                                                a(
+                                                  "h4",
+                                                  {
+                                                    staticClass:
+                                                      "int-display-4 int-text-color-medium-purple mt-30px",
+                                                  },
+                                                  [t._v("Leaderboard")]
+                                                ),
+                                                a(
+                                                  "p",
+                                                  {
+                                                    staticClass:
+                                                      "int-text-color-dark-4 mt-15px text-color-dark",
+                                                  },
+                                                  [
+                                                    t._v(
+                                                      "Grow your beasties and move up in the player rankings. Prizes await the winners"
+                                                    ),
+                                                  ]
+                                                ),
+                                              ]
+                                            ),
+                                          ]
+                                        ),
+                                      ]
+                                    ),
+                                    a(
+                                      "div",
+                                      {
                                         staticClass: "mb-features-second-row",
                                       },
                                       [
@@ -9257,7 +10351,7 @@
                                                       "p",
                                                       {
                                                         staticClass:
-                                                          "int-text-color-dark-4 mt-40px",
+                                                          "int-text-color-dark-4 mt-40px text-color-dark",
                                                       },
                                                       [
                                                         t._v(
@@ -9708,7 +10802,7 @@
           return a(
             "p",
             {
-              staticClass: "int-text-color-dark-4 mt-20px",
+              staticClass: "int-text-color-dark-4 mt-20px text-color-dark",
             },
             [
               t._v(
@@ -9742,7 +10836,7 @@
               a(
                 "p",
                 {
-                  staticClass: "int-text-color-dark-4 mt-20px",
+                  staticClass: "int-text-color-dark-4 mt-20px text-color-dark",
                 },
                 [
                   t._v(
@@ -31386,6 +32480,96 @@
   },
   c18c: function (t, e, a) {
     t.exports = a.p + "img/moonlight.f0e2bcdd.png";
+  },
+  imgprt1: function (t, e, a) {
+    t.exports = a.p + "img/prt1.jpg";
+  },
+  imgprt2: function (t, e, a) {
+    t.exports = a.p + "img/prt2.png";
+  },
+  imgprt3: function (t, e, a) {
+    t.exports = a.p + "img/prt3.jpg";
+  },
+  imgprt4: function (t, e, a) {
+    t.exports = a.p + "img/prt4.jpg";
+  },
+  imgprt5: function (t, e, a) {
+    t.exports = a.p + "img/prt5.jpg";
+  },
+  imgprt6: function (t, e, a) {
+    t.exports = a.p + "img/prt6.png";
+  },
+  imgprt7: function (t, e, a) {
+    t.exports = a.p + "img/prt7.jpg";
+  },
+  imgprt8: function (t, e, a) {
+    t.exports = a.p + "img/prt8.jpg";
+  },
+  imgprt9: function (t, e, a) {
+    t.exports = a.p + "img/prt9.jpg";
+  },
+  imgprt10: function (t, e, a) {
+    t.exports = a.p + "img/prt10.jpg";
+  },
+  imgprt11: function (t, e, a) {
+    t.exports = a.p + "img/prt11.jpg";
+  },
+  imgprt12: function (t, e, a) {
+    t.exports = a.p + "img/prt12.jpg";
+  },
+  imgprt13: function (t, e, a) {
+    t.exports = a.p + "img/prt13.jpg";
+  },
+  imgprt14: function (t, e, a) {
+    t.exports = a.p + "img/prt14.jpg";
+  },
+  imgprt15: function (t, e, a) {
+    t.exports = a.p + "img/prt15.jpg";
+  },
+  imgprt16: function (t, e, a) {
+    t.exports = a.p + "img/prt16.jpg";
+  },
+  imgprt17: function (t, e, a) {
+    t.exports = a.p + "img/prt17.jpg";
+  },
+  imgprt18: function (t, e, a) {
+    t.exports = a.p + "img/prt18.jpg";
+  },
+  imgprt19: function (t, e, a) {
+    t.exports = a.p + "img/prt19.jpg";
+  },
+  imgprt20: function (t, e, a) {
+    t.exports = a.p + "img/prt20.jpg";
+  },
+  imgprt21: function (t, e, a) {
+    t.exports = a.p + "img/prt21.jpg";
+  },
+  imgprt22: function (t, e, a) {
+    t.exports = a.p + "img/prt22.jpg";
+  },
+  imgprt23: function (t, e, a) {
+    t.exports = a.p + "img/prt23.jpg";
+  },
+  imgprt24: function (t, e, a) {
+    t.exports = a.p + "img/prt24.jpg";
+  },
+  imgprt25: function (t, e, a) {
+    t.exports = a.p + "img/prt25.jpeg";
+  },
+  imgprt26: function (t, e, a) {
+    t.exports = a.p + "img/prt26.png";
+  },
+  imgprt27: function (t, e, a) {
+    t.exports = a.p + "img/prt27.png";
+  },
+  imgprt28: function (t, e, a) {
+    t.exports = a.p + "img/prt28.png";
+  },
+  imgprt29: function (t, e, a) {
+    t.exports = a.p + "img/prt29.png";
+  },
+  imgprt30: function (t, e, a) {
+    t.exports = a.p + "img/prt30.png";
   },
   c317: function (t, e, a) {
     t.exports = a.p + "img/twitter.a3ea293a.svg";
