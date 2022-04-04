@@ -41,6 +41,219 @@
     <link href="/js/chunk-vendors.a8a95f5c.js" rel="preload" as="script">
     <link href="css/chunk-vendors.28ccbacb.css" rel="stylesheet">
     <link href="css/app.9117a0a0.css" rel="stylesheet">
+    <style>
+    .team__grid {
+        display: -ms-grid;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        color: #fff;
+        font-size: 1vw;
+    }
+    @media screen and (max-width: 991px){
+        .team__grid {
+            -ms-grid-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+        }
+        .team__grid {
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .team__grid {
+            -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        }
+    }
+    .clip__module, .clip__inner {
+        clip-path: polygon( 0% 20px, /* top left */ 20px 0%, /* top left */ calc(100% - 20px) 0%, /* top right */ 100% 20px, /* top right */ 100% calc(100% - 20px), /* bottom right */ calc(100% - 20px) 100%, /* bottom right */ 20px 100%, /* bottom left */ 0 calc(100% - 20px) /* bottom left */ );
+    }
+    .clip__module {
+        width: 25em;
+        min-height: 17.5em;
+        padding: 2px;
+        background-color: #f4fef3;
+    }    
+    .clip__inner {
+        width: 100%;
+        height: 100%;
+        min-height: 17.5em;
+        background-color: #1c1e23;
+    }
+    .team__inner {
+        position: relative;
+        overflow: hidden;
+    }
+    .team__img {
+        width: 100%;
+        height: 24em;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: 50% 25%;
+        object-position: 50% 25%;
+    }
+    .team__cont {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1.4em 1.6em;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+    .of__hidden {
+        overflow: hidden;
+    }
+    .team__title {
+        margin-bottom: 0.25em;
+        color: #f15d30;
+    }
+    .inv.anim {
+        transform: translate(0%, 0px);
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: cubic-bezier(.075, .82, .165, 1);
+    }
+    .anim {
+        transform: translate(-101%, 0px);
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: cubic-bezier(.075, .82, .165, 1);
+    }
+    .b__heading {
+        position: relative;
+        font-size: 1.25em;
+        line-height: 1.33;
+        font-weight: 700;
+        text-align: initial;
+    }
+    .inv.anim::after {
+        transform: scaleX(0);
+    }
+    .anim::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        will-change: transform;
+        transform-origin: right center;
+        background-color: #f15d30;
+        pointer-events: none;
+        transform: scaleX(1);
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-delay: 300ms;
+        transition-timing-function: cubic-bezier(.075, .82, .165, 1);
+    }
+    .del.anim::after {
+        transition-delay: 600ms;
+    }
+    .del.anim {
+        transition-delay: 300ms;
+    }
+    .i__heading {
+        position: relative;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: .83em;
+        line-height: 2;
+        font-weight: 700;
+    }
+    .team__plus {
+        width: 2.08em;
+        height: 2.08em;
+        margin-bottom: 0.25em;
+        margin-left: 1em;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        background-image: url(https://assets-global.website-files.com/61b763c53bf99ebf830200d4/61bb4bc548b96c4f0aa8198a_plus.svg);
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    .team__info.ti__open {
+        -webkit-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+    .team__info {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1.4em 1.6em;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        background-color: #f4fef3;
+        -webkit-transform: translate(100%,0);
+        -ms-transform: translate(100%,0);
+        transform: translate(100%,0);
+        -webkit-transition: -webkit-transform .3s cubic-bezier(.075, .82, .165, 1);
+        transition: transform .3s cubic-bezier(.075, .82, .165, 1);
+        transition: transform .3s cubic-bezier(.075, .82, .165, 1),-webkit-transform .3s cubic-bezier(.075, .82, .165, 1);
+        color: #000;
+    }
+    .e__para {
+        font-family: 'Nunito Sans';
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    .team__link {
+        margin-top: 0.75em;
+    }
+
+    .w-condition-invisible, .w-dyn-bind-empty, .w-dyn-hide {
+        display: none!important;
+    }
+    .team__x {
+        width: 2.08em;
+        height: 2.08em;
+        margin-top: auto;
+        margin-bottom: 0.25em;
+        margin-left: auto;
+        background-image: url(https://assets-global.website-files.com/61b763c53bf99ebf830200d4/61bb5afaa977ed35efd26c49_x01.svg);
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+        cursor: pointer;
+    }
+    .w-dyn-item {
+        margin: auto;
+    }
+    </style>
 </head>
 
 <body>
@@ -90,10 +303,10 @@
                             style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                             <!-- <img
                                 src="/img/logo-1.png" class="hero-img-main"> -->
-                                <video playsinline="" autoplay="autoplay" muted="muted" loop="loop" class="hero-img-main">
-                                    <source src="/img/video.mp4"type="video/mp4"></video>
-                                <!-- <source src="/img/video.mp4" type="video/mp4"> -->
-                            </div>
+                            <video playsinline="" autoplay="autoplay" muted="muted" loop="loop" class="hero-img-main">
+                                <source src="/img/video.mp4" type="video/mp4"></video>
+                            <!-- <source src="/img/video.mp4" type="video/mp4"> -->
+                        </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -235,7 +448,7 @@
                                                 data-id="e34219fc-85e2-44da-88a3-8d9027f260a4" __idm_id__="6791169">
                                                 <source
                                                     src="https://beasties.online/public_assets/nft/hella_cutie_min.mp4">
-                                                </video></div>
+                                            </video></div>
                                         <div class="mb-nft-card-right">
                                             <div class="mb-nft-card-desc-wrapper">
                                                 <div class="mb-nft-name">Hella Cutie</div>
@@ -259,7 +472,7 @@
                                                 data-id="8217c4ce-4f88-424c-8b76-9f48d141c010" __idm_id__="6791170">
                                                 <source
                                                     src="https://beasties.online/public_assets/nft/bella_babe_min.mp4">
-                                                </video></div>
+                                            </video></div>
                                         <div class="mb-nft-card-right">
                                             <div class="mb-nft-card-desc-wrapper">
                                                 <div class="mb-nft-name">Bella Babe</div>
@@ -284,7 +497,7 @@
                                                 data-id="62de43e3-e810-4268-9835-e44c74f72b73" __idm_id__="6791171">
                                                 <source
                                                     src="https://beasties.online/public_assets/nft/horny_tony_min.mp4">
-                                                </video></div>
+                                            </video></div>
                                         <div class="mb-nft-card-right">
                                             <div class="mb-nft-card-desc-wrapper">
                                                 <div class="mb-nft-name">Horny Tony</div>
@@ -309,7 +522,7 @@
                                                 data-id="021c5d4e-69f7-49a7-b278-1638aa07ccb2" __idm_id__="6791172">
                                                 <source
                                                     src="https://beasties.online/public_assets/nft/knitty_katie_min.mp4">
-                                                </video></div>
+                                            </video></div>
                                         <div class="mb-nft-card-right">
                                             <div class="mb-nft-card-desc-wrapper">
                                                 <div class="mb-nft-name">Knitty Katie</div>
@@ -334,7 +547,7 @@
                                                 data-id="fed819ec-c137-493b-afae-b0addf50f4f1" __idm_id__="6791173">
                                                 <source
                                                     src="https://beasties.online/public_assets/nft/little_johnny_min.mp4">
-                                                </video></div>
+                                            </video></div>
                                         <div class="mb-nft-card-right">
                                             <div class="mb-nft-card-desc-wrapper">
                                                 <div class="mb-nft-name">Little Johnny</div>
@@ -359,7 +572,7 @@
                                                 data-id="58006ade-eddf-4e25-b539-85684c234a7c" __idm_id__="6791174">
                                                 <source
                                                     src="https://beasties.online/public_assets/nft/sapphire_drago_min.mp4">
-                                                </video></div>
+                                            </video></div>
                                         <div class="mb-nft-card-right">
                                             <div class="mb-nft-card-desc-wrapper">
                                                 <div class="mb-nft-name">Sapphire Drago</div>
@@ -994,6 +1207,312 @@
     <div id="tidio-chat"><iframe title="Tidio Chat" id="tidio-chat-iframe"
             style="display: block; border: none; position: fixed; inset: auto 9px 35px auto; width: 264px; height: 94px; opacity: 1; background: none transparent !important; margin: 0px; max-height: 100vh; max-width: 100vw; transform: translateY(0px); transition: none 0s ease 0s !important; visibility: visible; z-index: 999999999 !important; border-radius: 47px 30px 47px 47px;"></iframe>
     </div>
+    <script>        
+        var teamHtml = `<div role="list" class="team__grid w-dyn-items">
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Dimik vorov</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Co-founder & Chief Operating Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">A game that depicts a zombie apocalypse. His best designs are an important contribution to taking a project's visual identity to the next level. His innovative skills and experience laid the foundation for ElonXzombie</p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team1.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Arthur Cole</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Co-founder &amp; Chief Operating
+                                                                                        Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">Cole is a crypto
+                                                                                        investor, seasoned competitive
+                                                                                        gamer, and sound engineer. His
+                                                                                        work has the hallmark of those
+                                                                                        who have a passion for video
+                                                                                        games and their community of
+                                                                                        players. He delivers the best
+                                                                                        possible user experience to each
+                                                                                        of MetaClash's projects while
+                                                                                        considering the mindset of
+                                                                                        crypto investors.</p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team2.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Donald Genesh</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Chief Strategic Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">Genesh is an
+                                                                                        expert crypto investor with a
+                                                                                        deep business marketing and
+                                                                                        financial background. His
+                                                                                        successful financial experiences
+                                                                                        give him the necessary knowledge
+                                                                                        to lead a project to success. He
+                                                                                        is a currently partner at
+                                                                                        Interchain Ventures. </p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team3.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            J.Rodriguez</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Chief Technology Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">More than a
+                                                                                        decade of experience in crypto
+                                                                                        and cybersecurity has provided
+                                                                                        Dexter with the tools to protect
+                                                                                        the assets of a project and its
+                                                                                        community's investment. He is
+                                                                                        also the co-founder of the
+                                                                                        cybersecurity firm Privacy Ninja
+                                                                                        and has worked with many
+                                                                                        high-profile clients since its
+                                                                                        inception. </p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team4.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            YaxHas Clue</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Chief Gaming Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">Since childhood,
+                                                                                        Jeremy’s love for video games
+                                                                                        has been ingrained within him.
+                                                                                        He is a self-taught 3D game
+                                                                                        developer, expert on Games
+                                                                                        Modding and Unreal Engine.
+                                                                                        Jeremy has built many successful
+                                                                                        games like 3rd player shooter
+                                                                                        “Eximius,” available on Steam.
+                                                                                        He founded the Indie game studio
+                                                                                        Ammobox. </p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team5.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Evans Clayton </h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Chief Partnership Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">actively participate in social platforms, develop a broad understanding of marketing and its important role in the crypto world. He studied user strategies for building a solid community, focusing on its intrinsic growth as a key driver to ensure project success.</p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team6.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Richard Snoddon</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Chief Visionary Officer</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">Richard creates
+                                                                                        the world and its characters
+                                                                                        that are the foundation of the
+                                                                                        exhilarating MetaClash Lore. His
+                                                                                        experience in the crypto world
+                                                                                        gives him an understanding of
+                                                                                        the right strategies to make art
+                                                                                        and creativity an asset for a
+                                                                                        project. He has published two
+                                                                                        books and worked for renowned
+                                                                                        international media such as VICE
+                                                                                        and TRT. </p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team7.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Austin Harold</h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Partnership and Alliances
+                                                                                        Manager</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">Austin is a
+                                                                                        well-known personality in the
+                                                                                        crypto world with extensive
+                                                                                        experience in community
+                                                                                        management. His work has been
+                                                                                        instrumental in the rapid growth
+                                                                                        of communities in projects such
+                                                                                        as Bondly, among others.</p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="w-dyn-item">
+                                                                <div class="clip__module">
+                                                                    <div class="clip__inner">
+                                                                        <div class="team__inner"><img
+                                                                                src="/img/team8.jpeg"
+                                                                                loading="lazy" alt="" class="team__img">
+                                                                            <div class="team__cont">
+                                                                                <div class="of__hidden">
+                                                                                    <div class="team__title">
+                                                                                        <h3 class="b__heading anim inv">
+                                                                                            Donald Harrison </h3>
+                                                                                    </div>
+                                                                                    <p class="i__heading anim del inv">
+                                                                                        Social Media Manager</p>
+                                                                                </div>
+                                                                                <div class="team__plus hov__on" onclick="showDiv(this)"></div>
+                                                                                <div class="team__info">
+                                                                                    <p class="e__para">Understanding the
+                                                                                        importance of social media and
+                                                                                        content management its the key
+                                                                                        to build a strong relationship
+                                                                                        between a project and its
+                                                                                        community. Donald Harrison has
+                                                                                        experience developing several
+                                                                                        successful plans and strategies
+                                                                                        in different companies, with a
+                                                                                        solid background in online
+                                                                                        marketing.</p>
+                                                                                    <div class="team__x" onclick="hideDiv(this)"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>`;
+        document.querySelector('.int-features-wrapper').innerHTML = teamHtml;
+        function showDiv(el) {
+            var el_parent = el.closest('.team__cont')
+            el_parent.querySelector('.team__info').classList.add("ti__open");
+        }
+        function hideDiv(el) {
+            var el_parent = el.closest('.team__cont')
+            el_parent.querySelector('.team__info').classList.remove("ti__open");
+        }
+    </script>
 </body>
 
 </html>
