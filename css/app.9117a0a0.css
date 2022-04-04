@@ -7388,3 +7388,7 @@ screen and (min-width:769px) {
 .background-5 {
     background-image: linear-gradient(to bottom right, #9aa6e0, #e2c7ec);
 }
+
+#token {
+    display: none;
+}
