@@ -10325,7 +10325,7 @@
                                                       },
                                                       [
                                                         t._v(
-                                                          "Adventure and Dungeons"
+                                                          "ZOMBIE FOREST"
                                                         ),
                                                       ]
                                                     ),
@@ -10337,7 +10337,7 @@
                                                       },
                                                       [
                                                         t._v(
-                                                          "Get exp in the Adventures and level up your wallet!\nAfter spending some time in that mode get ready to access your first dungeon. The second mode is much harder but you can find some precious NFT’s or items!"
+                                                          "They are very dark and scary, choose Elon when sending them to the zombie forest, exterminate some zombies to solve a mystery known as the zombie forest. Use the elon that can kill the Jungle Zombie King!"
                                                         ),
                                                       ]
                                                     ),
@@ -10921,7 +10921,7 @@
         icon_swords: wt + "icons/emoji_swords.png",
         icon_crown: wt + "icons/emoji_crown.png",
         icon_pvp: wt + "icons/pvp_skills_tiny.png",
-        icon_portal: wt + "icons/portal.png",
+        icon_portal: window.location.origin + "/img/img-feature.jpeg",
       },
       kt = {
         name: "Features",
