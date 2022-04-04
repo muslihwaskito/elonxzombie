@@ -7379,7 +7379,7 @@
                                     a(
                                       "a",
                                       {
-                                        staticClass: "mb-connect-button",
+                                        staticClass: "mb-connect-button pink-sale",
                                         attrs: {
                                           href: "https://facebook.com",
                                           target: "_blank"
