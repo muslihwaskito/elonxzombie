@@ -7365,6 +7365,29 @@
                                       [t._v("Play The Game")]
                                     ),
                                   ]
+                                ),                                
+                                a(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "int-text-center mt-video wow animate__fadeInUp mb-40px",
+                                    attrs: {
+                                      "data-wow-delay": "0.25s",
+                                    },
+                                  },
+                                  [
+                                    a(
+                                      "a",
+                                      {
+                                        staticClass: "mb-connect-button",
+                                        attrs: {
+                                          href: "https://facebook.com",
+                                          target: "_blank"
+                                        }
+                                      },
+                                      [t._v("Pinksale")]
+                                    ),
+                                  ]
                                 ),
                                 t._m(0),
                                 t._m(1),
