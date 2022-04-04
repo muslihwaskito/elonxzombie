@@ -5860,7 +5860,7 @@
     a("140d");
   },
   "49e2": function (t, e, a) {
-    t.exports = a.p + "img/video.mp4";
+    t.exports = a.p + "img/video-test.mp4";
   },
   5: function (t, e) {},
   "512d": function (t, e, a) {},
@@ -7386,6 +7386,29 @@
                                         }
                                       },
                                       [t._v("Pinksale")]
+                                    ),
+                                  ]
+                                ),                              
+                                a(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "int-text-center mt-video wow animate__fadeInUp mb-40px",
+                                    attrs: {
+                                      "data-wow-delay": "0.25s",
+                                    },
+                                  },
+                                  [
+                                    a(
+                                      "a",
+                                      {
+                                        staticClass: "mb-connect-button white-paper",
+                                        attrs: {
+                                          href: "https://facebook.com",
+                                          target: "_blank"
+                                        }
+                                      },
+                                      [t._v("Whitepaper")]
                                     ),
                                   ]
                                 ),
@@ -8971,160 +8994,6 @@
                                                     "div",
                                                     {
                                                       staticClass:
-                                                        "mb-feature wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "https://biswap.org/",
-                                                            target: "_blank",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("e117"),
-                                                              title: "Biswap",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "https://chain.link/",
-                                                            target: "_blank",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("061b"),
-                                                              title:
-                                                                "Chainlink",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "https://bubbles.moonlighttoken.com/token/0xc77dd3ade7b717583e0924466e4e474a5673332c",
-                                                            target: "_blank",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("c18c"),
-                                                              title:
-                                                                "Moonlight",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "https://blockster.com/",
-                                                            target: "_blank",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("2a47"),
-                                                              title:
-                                                                "Blockster",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt1"),
-                                                              title:
-                                                                "Coin pedia",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
                                                         "mb-feature partner-blockster wow animate__fadeInUp",
                                                       attrs: {
                                                         "data-wow-delay":
@@ -9146,99 +9015,6 @@
                                                               src: a("imgprt2"),
                                                               title:
                                                                 "PooCoint",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt3"),
-                                                              title:
-                                                                "Cryptomode",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt4"),
-                                                              title:
-                                                                "Tcu",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt5"),
-                                                              title:
-                                                                "GQ",
                                                             },
                                                           }),
                                                         ]
@@ -10113,170 +9889,6 @@
                                     a(
                                       "div",
                                       {
-                                        staticClass: "mb-features-first-row",
-                                      },
-                                      [
-                                        a(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "int-small-card mb-feature wow animate__fadeInUp",
-                                            attrs: {
-                                              "data-wow-delay": "0.2s",
-                                            },
-                                          },
-                                          [
-                                            a(
-                                              "div",
-                                              {
-                                                staticClass: "int-card-inner",
-                                              },
-                                              [
-                                                a("img", {
-                                                  directives: [
-                                                    {
-                                                      name: "lazy",
-                                                      rawName: "v-lazy",
-                                                      value:
-                                                        t.images["icon_key"],
-                                                      expression:
-                                                        "images['icon_key']",
-                                                    },
-                                                  ],
-                                                }),
-                                                a(
-                                                  "h4",
-                                                  {
-                                                    staticClass:
-                                                      "int-display-4 int-text-color-medium-purple mt-30px",
-                                                  },
-                                                  [t._v("True Ownership")]
-                                                ),
-                                                a(
-                                                  "p",
-                                                  {
-                                                    staticClass:
-                                                      "int-text-color-dark-4 mt-15px text-color-dark",
-                                                  },
-                                                  [
-                                                    t._v(
-                                                      "Every item or character you own in the game is 100%\nyours and stored on the blockchain.\nYou can exchange or transfer it to anyone at any time"
-                                                    ),
-                                                  ]
-                                                ),
-                                              ]
-                                            ),
-                                          ]
-                                        ),
-                                        a(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "int-small-card mb-feature wow animate__fadeInUp",
-                                            attrs: {
-                                              "data-wow-delay": "0.3s",
-                                            },
-                                          },
-                                          [
-                                            a(
-                                              "div",
-                                              {
-                                                staticClass: "int-card-inner",
-                                              },
-                                              [
-                                                a("img", {
-                                                  directives: [
-                                                    {
-                                                      name: "lazy",
-                                                      rawName: "v-lazy",
-                                                      value:
-                                                        t.images["icon_hands"],
-                                                      expression:
-                                                        "images['icon_hands']",
-                                                    },
-                                                  ],
-                                                }),
-                                                a(
-                                                  "h4",
-                                                  {
-                                                    staticClass:
-                                                      "int-display-4 int-text-color-medium-purple mt-30px",
-                                                  },
-                                                  [t._v("Marketplace")]
-                                                ),
-                                                a(
-                                                  "p",
-                                                  {
-                                                    staticClass:
-                                                      "int-text-color-dark-4 mt-15px text-color-dark",
-                                                  },
-                                                  [
-                                                    t._v(
-                                                      "You will be able to trade on any marketplaces that support NFT's.\nAnd we are also working on our own marketplace"
-                                                    ),
-                                                  ]
-                                                ),
-                                              ]
-                                            ),
-                                          ]
-                                        ),
-                                        a(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "int-small-card mb-feature wow animate__fadeInUp",
-                                            attrs: {
-                                              "data-wow-delay": "0.4s",
-                                            },
-                                          },
-                                          [
-                                            a(
-                                              "div",
-                                              {
-                                                staticClass: "int-card-inner",
-                                              },
-                                              [
-                                                a("img", {
-                                                  directives: [
-                                                    {
-                                                      name: "lazy",
-                                                      rawName: "v-lazy",
-                                                      value:
-                                                        t.images["icon_trophy"],
-                                                      expression:
-                                                        "images['icon_trophy']",
-                                                    },
-                                                  ],
-                                                }),
-                                                a(
-                                                  "h4",
-                                                  {
-                                                    staticClass:
-                                                      "int-display-4 int-text-color-medium-purple mt-30px",
-                                                  },
-                                                  [t._v("Leaderboard")]
-                                                ),
-                                                a(
-                                                  "p",
-                                                  {
-                                                    staticClass:
-                                                      "int-text-color-dark-4 mt-15px text-color-dark",
-                                                  },
-                                                  [
-                                                    t._v(
-                                                      "Grow your beasties and move up in the player rankings. Prizes await the winners"
-                                                    ),
-                                                  ]
-                                                ),
-                                              ]
-                                            ),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    a(
-                                      "div",
-                                      {
                                         staticClass: "mb-features-second-row",
                                       },
                                       [
@@ -10303,43 +9915,6 @@
                                                       "int-card-inner-left",
                                                   },
                                                   [
-                                                    a(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "mb-card-double-emoji",
-                                                      },
-                                                      [
-                                                        a("img", {
-                                                          directives: [
-                                                            {
-                                                              name: "lazy",
-                                                              rawName: "v-lazy",
-                                                              value:
-                                                                t.images[
-                                                                  "icon_dagger"
-                                                                ],
-                                                              expression:
-                                                                "images['icon_dagger']",
-                                                            },
-                                                          ],
-                                                        }),
-                                                        a("img", {
-                                                          directives: [
-                                                            {
-                                                              name: "lazy",
-                                                              rawName: "v-lazy",
-                                                              value:
-                                                                t.images[
-                                                                  "icon_money_bag"
-                                                                ],
-                                                              expression:
-                                                                "images['icon_money_bag']",
-                                                            },
-                                                          ],
-                                                        }),
-                                                      ]
-                                                    ),
                                                     a(
                                                       "h4",
                                                       {
@@ -10457,43 +10032,6 @@
                                                   "div",
                                                   {
                                                     staticClass:
-                                                      "mb-card-double-emoji",
-                                                  },
-                                                  [
-                                                    a("img", {
-                                                      directives: [
-                                                        {
-                                                          name: "lazy",
-                                                          rawName: "v-lazy",
-                                                          value:
-                                                            t.images[
-                                                              "icon_swords"
-                                                            ],
-                                                          expression:
-                                                            "images['icon_swords']",
-                                                        },
-                                                      ],
-                                                    }),
-                                                    a("img", {
-                                                      directives: [
-                                                        {
-                                                          name: "lazy",
-                                                          rawName: "v-lazy",
-                                                          value:
-                                                            t.images[
-                                                              "icon_crown"
-                                                            ],
-                                                          expression:
-                                                            "images['icon_crown']",
-                                                        },
-                                                      ],
-                                                    }),
-                                                  ]
-                                                ),
-                                                a(
-                                                  "div",
-                                                  {
-                                                    staticClass:
                                                       "mb-card-pvp-description",
                                                   },
                                                   [
@@ -10510,43 +10048,9 @@
                                                             staticClass:
                                                               "int-display-4 int-text-color-medium-purple mt-40px",
                                                           },
-                                                          [t._v("PvP Battles")]
+                                                          [t._v("PZOMBIES DESTROY THE CITY")]
                                                         ),
                                                         t._m(2),
-                                                        a(
-                                                          "p",
-                                                          {
-                                                            staticClass:
-                                                              "int-p-3 mt-20px",
-                                                          },
-                                                          [
-                                                            a(
-                                                              "a",
-                                                              {
-                                                                staticClass:
-                                                                  "int-span-link",
-                                                                attrs: {
-                                                                  href: "https://docs.beasties.online/pvp",
-                                                                  target:
-                                                                    "_blank",
-                                                                },
-                                                              },
-                                                              [
-                                                                a("span", [
-                                                                  t._v(
-                                                                    "Read More"
-                                                                  ),
-                                                                ]),
-                                                                a("ion-icon", {
-                                                                  attrs: {
-                                                                    name: "caret-forward",
-                                                                  },
-                                                                }),
-                                                              ],
-                                                              1
-                                                            ),
-                                                          ]
-                                                        ),
                                                       ]
                                                     ),
                                                     t._m(3),
@@ -10763,7 +10267,7 @@
                           staticClass:
                             "int-display-2 int-text-color-dark int-text-center backdrop-dark",
                         },
-                        [t._v("Features")]
+                        [t._v("ElonXZombie GAME ROADMAP")]
                       ),
                     ]
                   ),
@@ -10811,11 +10315,11 @@
             },
             [
               t._v(
-                "You can duel with another player in text-based combat using your Beasties."
+                "The once safe and peaceful city turns into ruins when zombies attack. They are very many and scary, choose the strongest Elon to defeat the zombies that attack the city."
               ),
               a("br"),
               t._v(
-                "Each battle brings rewards or losses in BSTS Tokens.\nBeasties can choose how to spend Action points each round.\nBeasties need to use One action point per Attack or Defence."
+                "Kill the Zombie King in a ruined City! Each player is entitled to $ElonXzombie when defeating the Zombie King of the Destroyed City"
               ),
             ]
           );
@@ -10836,7 +10340,7 @@
                   staticClass:
                     "int-display-5 int-text-color-medium-purple mt-40px",
                 },
-                [t._v("Action points")]
+                [t._v("MOON ZOMBIES")]
               ),
               a(
                 "p",
@@ -10845,11 +10349,15 @@
                 },
                 [
                   t._v(
-                    "Action points are points that players can use during combat\nwith other players, each round each Beastie grants with action points.\nPlayers choose how to spend points for each Beastie."
+                    "The attack did not attack the inhabitants of the earth, but the zombies have penetrated throughout outer space, the moon where zombies have been detected."
                   ),
                   a("br"),
                   t._v(
-                    "As a result, Players can Block Attacks or deal damage to other Players' Beasties."
+                    "Elon with his Spacexx plane flew to the moon carrying millions or billions of humans on earth to save the earth's inhabitants from zombie attacks, but on the moon millions of zombies also attacked, choose elon to eradicate/destroy the zombie king on the moon."
+                  ),
+                  a("br"),
+                  t._v(
+                    "Each player will get $elonxZombie when defeating Zombie King on the moon!!"
                   ),
                 ]
               ),
@@ -10944,7 +10452,7 @@
         icon_swords: wt + "icons/emoji_swords.png",
         icon_crown: wt + "icons/emoji_crown.png",
         icon_pvp: wt + "icons/pvp_skills_tiny.png",
-        icon_portal: window.location.origin + "/img/img-feature.jpeg",
+        icon_portal: window.location.origin + "/img/img-feature.jpg",
       },
       kt = {
         name: "Features",

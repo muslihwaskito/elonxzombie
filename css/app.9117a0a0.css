@@ -2060,7 +2060,7 @@ a.mb-buy-button.mb-buy-button-disabled {
 a.mb-connect-button {
     padding: 12px 20px;
     color: #fff;
-    background: linear-gradient(100.33deg, #007aff 1.72%, #00df74 112.18%);
+    background: linear-gradient(100.33deg, #5a1672 1.72%, #b8539e 112.18%);
     box-shadow: 4px 2px 8px rgba(0, 223, 116, .25), 2px 4px 8px rgba(0, 122, 255, .25);
     border-radius: 20px;
     margin-left: 20px
@@ -2216,9 +2216,10 @@ a.mb-exchange-button span.mb-exchange-button-text>span.slippage>span.recommendat
 
 .int-card,
 .int-small-card {
+    background-image: linear-gradient(174deg, #ffd5d5 80%, #fe83b1 100%, hsl(0deg 0% 100% / 0%) 0);
     border-radius: 20px;
     position: relative;
-    background: #fff;
+    /* background: #fff; */
     box-shadow: 2px 2px 15px rgba(50, 68, 95, .1);
     padding: 20px 30px
 }
@@ -3526,7 +3527,8 @@ screen and (min-width:769px) {
 }
 
 .mb-nft-card-wrapper .mb-nft-card-left video {
-    width: 100%
+    width: 100%;
+    max-height: 300px
 }
 
 .mb-nft-card-wrapper .mb-nft-card-right {
@@ -7395,5 +7397,10 @@ screen and (min-width:769px) {
 
 .pink-sale {
     background: linear-gradient(100.33deg, #ff008d 1.72%, #858585 112.18%) !important;
+    box-shadow: 4px 2px 8px rgb(223 0 0 / 25%), 2px 4px 8px rgb(255 0 0 / 25%) !important;
+}
+
+.white-paper {
+    background: linear-gradient(100.33deg, #ff9fbe 1.72%, #bf619f 112.18%) !important;
     box-shadow: 4px 2px 8px rgb(223 0 0 / 25%), 2px 4px 8px rgb(255 0 0 / 25%) !important;
 }
