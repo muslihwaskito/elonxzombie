@@ -3847,7 +3847,7 @@ ul.mb-roadmap-list-wrapper li {
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(4, 1fr)
 }
 
 .mb-partners-wrapper .mb-press-wrapper .defi-chads-press img {
@@ -7310,6 +7310,10 @@ screen and (min-width:769px) {
     font-weight: bold !important;
 }
 
+.mt-video {
+    margin-top: 70px;
+}
+
 @media screen and (max-width:768px) {
     .mb-hero-mobile .mb-hero-mobile-image {
         position: relative;
@@ -7317,7 +7321,7 @@ screen and (min-width:769px) {
     }
 
     .hero-img-main {
-        width: 50%;
+        width: 90%;
         margin-top: 40px;
     }
 
@@ -7329,6 +7333,14 @@ screen and (min-width:769px) {
 
     body {
         background-image: url(/img/background-6.jpg);
+    }    
+
+    .mb-partners-wrapper .mb-press-wrapper {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .mt-video {
+        margin-top: 0px;
     }
 }
 
@@ -7346,4 +7358,28 @@ screen and (min-width:769px) {
 
 .text-color-dark {
     color: #32445f;
+}
+
+.background-0 {
+    background-image: linear-gradient(to bottom right, #4c3a46, #978ca9);
+}
+
+.background-1 {
+    background-image: linear-gradient(to bottom right, #fca3ab, #99f8af);
+}
+
+.background-2 {
+    background-image: linear-gradient(to bottom right, #edc7ce, #73b4ff);
+}
+
+.background-3 {
+    background-image: linear-gradient(to bottom right, #c1c0ef, #ffadaf);
+}
+
+.background-4 {
+    background-image: linear-gradient(to bottom right, #a8bb5a, #f7f39c);
+}
+
+.background-5 {
+    background-image: linear-gradient(to bottom right, #9aa6e0, #e2c7ec);
 }

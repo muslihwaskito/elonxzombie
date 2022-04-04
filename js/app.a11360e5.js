@@ -5860,7 +5860,7 @@
     a("140d");
   },
   "49e2": function (t, e, a) {
-    t.exports = a.p + "img/logo-1.png";
+    t.exports = a.p + "img/video.mp4";
   },
   5: function (t, e) {},
   "512d": function (t, e, a) {},
@@ -7202,12 +7202,19 @@
                           },
                         },
                         [
-                          s("img", {
+                          s("LazyVideo", {
                             staticClass: "hero-img-main",
                             attrs: {
                               src: a("49e2"),
+                              attrs: {
+                                controls: !1,
+                                playsinline: !0,
+                                loop: !0,
+                                autoplay: !0,
+                                muted: !0,
+                              }
                             },
-                          }),
+                          })
                         ]
                       ),
                       s("div", {
@@ -7332,7 +7339,7 @@
                                   "div",
                                   {
                                     staticClass:
-                                      "int-text-center mt-40px wow animate__fadeInUp mb-40px",
+                                      "int-text-center mt-video wow animate__fadeInUp mb-40px",
                                     attrs: {
                                       "data-wow-delay": "0.25s",
                                     },
@@ -7893,7 +7900,7 @@
                                         s(
                                           "div",
                                           {
-                                            staticClass: "mb-nft-card-left",
+                                            staticClass: "mb-nft-card-left background-"+n,
                                           },
                                           [
                                             s("LazyVideo", {
@@ -8099,7 +8106,7 @@
           );
         },
       ],
-      at = "https://beasties.online/public_assets/",
+      at = window.location.origin,
       st = {
         mask_nft: at + "masks/mask_nft_tiny.png",
       },
@@ -8119,43 +8126,37 @@
               {
                 name: "Hella Cutie",
                 rarity: "legendary",
-                video: at + "nft/hella_cutie_min.mp4",
-                image: at + "nft/hella_cutie.png",
+                image: at + "/img/carackter1.png",
                 supply: 20,
               },
               {
                 name: "Bella Babe",
                 rarity: "uncommon",
-                video: at + "nft/bella_babe_min.mp4",
-                image: at + "nft/bella_babe.png",
+                image: at + "/img/carackter2.png",
                 supply: 50,
               },
               {
                 name: "Horny Tony",
                 rarity: "rare",
-                video: at + "nft/horny_tony_min.mp4",
-                image: at + "nft/horny_tony.png",
+                image: at + "/img/carackter3.png",
                 supply: 30,
               },
               {
                 name: "Knitty Katie",
                 rarity: "uncommon",
-                video: at + "nft/knitty_katie_min.mp4",
-                image: at + "nft/knitty_katie.png",
+                image: at + "/img/carackter4.png",
                 supply: 100,
               },
               {
                 name: "Little Johnny",
                 rarity: "uncommon",
-                video: at + "nft/little_johnny_min.mp4",
-                image: at + "nft/little_johnny.png",
+                image: at + "/img/carackter5.png",
                 supply: 100,
               },
               {
                 name: "Sapphire Drago",
                 rarity: "common",
-                video: at + "nft/sapphire_drago_min.mp4",
-                image: at + "nft/sapphire_drago_min.png",
+                image: at + "/img/carackter6.png",
                 supply: 200,
               },
               {
