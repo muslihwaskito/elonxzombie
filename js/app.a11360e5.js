@@ -7984,54 +7984,7 @@
                                                   {
                                                     staticClass:
                                                       "mb-nft-rarity-wrapper",
-                                                  },
-                                                  [
-                                                    "generic" === e["rarity"]
-                                                      ? s("img", {
-                                                          staticClass:
-                                                            "mb-beastie-rarity-image",
-                                                          attrs: {
-                                                            src: a("d3a5"),
-                                                          },
-                                                        })
-                                                      : t._e(),
-                                                    "common" === e["rarity"]
-                                                      ? s("img", {
-                                                          staticClass:
-                                                            "mb-beastie-rarity-image",
-                                                          attrs: {
-                                                            src: a("5f64"),
-                                                          },
-                                                        })
-                                                      : t._e(),
-                                                    "uncommon" === e["rarity"]
-                                                      ? s("img", {
-                                                          staticClass:
-                                                            "mb-beastie-rarity-image",
-                                                          attrs: {
-                                                            src: a("42f6"),
-                                                          },
-                                                        })
-                                                      : t._e(),
-                                                    "rare" === e["rarity"]
-                                                      ? s("img", {
-                                                          staticClass:
-                                                            "mb-beastie-rarity-image",
-                                                          attrs: {
-                                                            src: a("b405"),
-                                                          },
-                                                        })
-                                                      : t._e(),
-                                                    "legendary" === e["rarity"]
-                                                      ? s("img", {
-                                                          staticClass:
-                                                            "mb-beastie-rarity-image",
-                                                          attrs: {
-                                                            src: a("12ba"),
-                                                          },
-                                                        })
-                                                      : t._e(),
-                                                  ]
+                                                  }
                                                 ),
                                               ]
                                             ),
@@ -8040,22 +7993,7 @@
                                               {
                                                 staticClass:
                                                   "mb-nft-description mt-10px",
-                                              },
-                                              [
-                                                s(
-                                                  "p",
-                                                  {
-                                                    staticClass:
-                                                      "int-p-1 int-text-color-dark-4",
-                                                  },
-                                                  [
-                                                    t._v(
-                                                      "Supply: " +
-                                                        t._s(e["supply"])
-                                                    ),
-                                                  ]
-                                                ),
-                                              ]
+                                              }
                                             ),
                                           ]
                                         ),
@@ -8170,37 +8108,37 @@
             },
             nft: [
               {
-                name: "Hella Cutie",
+                name: "Elon Crutch",
                 rarity: "legendary",
                 image: at + "/img/carackter1.png",
                 supply: 20,
               },
               {
-                name: "Bella Babe",
+                name: "Captain jack Elon",
                 rarity: "uncommon",
                 image: at + "/img/carackter2.png",
                 supply: 50,
               },
               {
-                name: "Horny Tony",
+                name: "Elon Robocop",
                 rarity: "rare",
                 image: at + "/img/carackter3.png",
                 supply: 30,
               },
               {
-                name: "Knitty Katie",
+                name: "Elon Joker",
                 rarity: "uncommon",
                 image: at + "/img/carackter4.png",
                 supply: 100,
               },
               {
-                name: "Little Johnny",
+                name: "Elon Soldier",
                 rarity: "uncommon",
                 image: at + "/img/carackter5.png",
                 supply: 100,
               },
               {
-                name: "Sapphire Drago",
+                name: "crazy zombies",
                 rarity: "common",
                 image: at + "/img/carackter6.png",
                 supply: 200,
@@ -10105,6 +10043,41 @@
                             a(
                               "div",
                               {
+                                staticClass: "column",
+                              },
+                              [
+                                a(
+                                  "div",
+                                  {
+                                    staticClass: "section-title-wrapper",
+                                  },
+                                  [
+                                    a(
+                                      "h2",
+                                      {
+                                        staticClass:
+                                          "int-display-2 int-text-color-dark int-text-center wow animate__fadeInUp backdrop-dark",
+                                        attrs: {
+                                          "data-wow-delay": "0.2s",
+                                        },
+                                      },
+                                      [t._v("The Teams")]
+                                    ),
+                                  ]
+                                ),
+                              ]
+                            ),
+                          ]
+                        ),
+                        a(
+                          "div",
+                          {
+                            staticClass: "columns",
+                          },
+                          [
+                            a(
+                              "div",
+                              {
                                 staticClass: "column wow animate__fadeInUp",
                                 attrs: {
                                   "data-wow-delay": "0.3s",
@@ -10126,7 +10099,7 @@
                                         a(
                                           "div",
                                           {
-                                            staticClass: "int-small-card",
+                                            staticClass: "int-small-card background-image-none",
                                           },
                                           [
                                             a(
@@ -31895,7 +31868,7 @@
     t.exports = a.p + "img/pa.98097ad8.svg";
   },
   "81a5": function (t, e, a) {
-    t.exports = a.p + "img/logo.8887e67d.png";
+    t.exports = a.p + "img/logo.png";
   },
   8339: function (t) {
     t.exports = JSON.parse(

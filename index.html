@@ -5,13 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.png">
     <link rel="manifest" href="/manifest/site.webmanifest">
     <link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#ff007a">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/img/logo.png">
     <meta name="apple-mobile-web-app-title" content="Magic Beasties">
     <meta name="application-name" content="Magic Beasties">
     <meta name="msapplication-TileColor" content="#9f00a7">
@@ -55,6 +54,12 @@
         color: #fff;
         font-size: 1vw;
     }
+    .clip__module {
+        width: 19em;
+        min-height: 17.5em;
+        padding: 2px;
+        background-color: #f4fef3;
+    }
     @media screen and (max-width: 991px){
         .team__grid {
             -ms-grid-columns: 1fr 1fr;
@@ -63,21 +68,21 @@
         .team__grid {
             font-size: 14px;
         }
+        .clip__module {
+            width: 25em;
+        }  
     }
     @media screen and (max-width: 767px){
         .team__grid {
             -ms-grid-columns: 1fr;
             grid-template-columns: 1fr;
         }
+        .clip__module {
+            width: 25em;
+        } 
     }
     .clip__module, .clip__inner {
         clip-path: polygon( 0% 20px, /* top left */ 20px 0%, /* top left */ calc(100% - 20px) 0%, /* top right */ 100% 20px, /* top right */ 100% calc(100% - 20px), /* bottom right */ calc(100% - 20px) 100%, /* bottom right */ 20px 100%, /* bottom left */ 0 calc(100% - 20px) /* bottom left */ );
-    }
-    .clip__module {
-        width: 25em;
-        min-height: 17.5em;
-        padding: 2px;
-        background-color: #f4fef3;
     }    
     .clip__inner {
         width: 100%;
@@ -164,6 +169,7 @@
     }
     .del.anim {
         transition-delay: 300ms;
+        text-align: left;
     }
     .i__heading {
         position: relative;
@@ -266,7 +272,7 @@
                 <div class="container">
                     <div class="int-navbar-wrapper">
                         <div class="int-navbar-left">
-                            <div class="int-navbar-logo-wrapper"><a href="/"><img src="/img/logo.8887e67d.png"></a>
+                            <div class="int-navbar-logo-wrapper"><a href="/"><img src="/img/logo.png"></a>
                             </div>
                             <div class="int-navbar-menu-wrapper"><a
                                     class="int-navbar-menu-item"><span>Token</span></a><a
