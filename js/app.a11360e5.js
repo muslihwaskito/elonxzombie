@@ -6751,41 +6751,41 @@
                                           ),
                                         ]
                                       ),
-                                      // a(
-                                      //   "a",
-                                      //   {
-                                      //     staticClass: "int-icon-circle",
-                                      //     attrs: {
-                                      //       href: "https://github.com/MagicBeastiesOnline",
-                                      //       target: "_blank",
-                                      //     },
-                                      //   },
-                                      //   [
-                                      //     a(
-                                      //       "svg",
-                                      //       {
-                                      //         attrs: {
-                                      //           width: "20",
-                                      //           height: "20",
-                                      //           viewBox: "0 0 20 20",
-                                      //           fill: "none",
-                                      //           xmlns:
-                                      //             "http://www.w3.org/2000/svg",
-                                      //         },
-                                      //       },
-                                      //       [
-                                      //         a("path", {
-                                      //           attrs: {
-                                      //             "fill-rule": "evenodd",
-                                      //             "clip-rule": "evenodd",
-                                      //             d: "M10 0C4.475 0 0 4.475 0 10C0 14.425 2.8625 18.1625 6.8375 19.4875C7.3375 19.575 7.525 19.275 7.525 19.0125C7.525 18.775 7.5125 17.9875 7.5125 17.15C5 17.6125 4.35 16.5375 4.15 15.975C4.0375 15.6875 3.55 14.8 3.125 14.5625C2.775 14.375 2.275 13.9125 3.1125 13.9C3.9 13.8875 4.4625 14.625 4.65 14.925C5.55 16.4375 6.9875 16.0125 7.5625 15.75C7.65 15.1 7.9125 14.6625 8.2 14.4125C5.975 14.1625 3.65 13.3 3.65 9.475C3.65 8.3875 4.0375 7.4875 4.675 6.7875C4.575 6.5375 4.225 5.5125 4.775 4.1375C4.775 4.1375 5.6125 3.875 7.525 5.1625C8.325 4.9375 9.175 4.825 10.025 4.825C10.875 4.825 11.725 4.9375 12.525 5.1625C14.4375 3.8625 15.275 4.1375 15.275 4.1375C15.825 5.5125 15.475 6.5375 15.375 6.7875C16.0125 7.4875 16.4 8.375 16.4 9.475C16.4 13.3125 14.0625 14.1625 11.8375 14.4125C12.2 14.725 12.5125 15.325 12.5125 16.2625C12.5125 17.6 12.5 18.675 12.5 19.0125C12.5 19.275 12.6875 19.5875 13.1875 19.4875C15.1726 18.8173 16.8976 17.5414 18.1197 15.8395C19.3418 14.1375 19.9994 12.0952 20 10C20 4.475 15.525 0 10 0Z",
-                                      //             fill: "#32445F",
-                                      //           },
-                                      //         }),
-                                      //       ]
-                                      //     ),
-                                      //   ]
-                                      // ),
+                                      a(
+                                        "a",
+                                        {
+                                          staticClass: "int-icon-circle",
+                                          attrs: {
+                                            href: "https://www.instagram.com/elon_xzombie",
+                                            target: "_blank",
+                                          },
+                                        },
+                                        [
+                                          a(
+                                            "svg",
+                                            {
+                                              attrs: {
+                                                width: "20",
+                                                height: "20",
+                                                viewBox: "0 0 25 20",
+                                                fill: "none",
+                                                xmlns:
+                                                  "http://www.w3.org/2000/svg",
+                                              },
+                                            },
+                                            [
+                                              a("path", {
+                                                attrs: {
+                                                  "fill-rule": "evenodd",
+                                                  "clip-rule": "evenodd",
+                                                  d:"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z",
+                                                  fill: "#32445F",
+                                                },
+                                              }),
+                                            ]
+                                          ),
+                                        ]
+                                      ),
                                       a(
                                         "a",
                                         {
@@ -6812,6 +6812,39 @@
                                               a("path", {
                                                 attrs: {
                                                   d:"M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z",
+                                                  fill: "#32445F",
+                                                },
+                                              }),
+                                            ]
+                                          ),
+                                        ]
+                                      ),
+                                      a(
+                                        "a",
+                                        {
+                                          staticClass: "int-icon-circle",
+                                          attrs: {
+                                            href: "https://www.reddit.com/u/ElonXZombie",
+                                            target: "_blank",
+                                          },
+                                        },
+                                        [
+                                          a(
+                                            "svg",
+                                            {
+                                              attrs: {
+                                                width: "20",
+                                                height: "20",
+                                                viewBox: "0 0 24 24",
+                                                fill: "none",
+                                                xmlns:
+                                                  "http://www.w3.org/2000/svg",
+                                              },
+                                            },
+                                            [
+                                              a("path", {
+                                                attrs: {
+                                                  d:"M14.238 15.348c.085.084.085.221 0 .306-.465.462-1.194.687-2.231.687l-.008-.002-.008.002c-1.036 0-1.766-.225-2.231-.688-.085-.084-.085-.221 0-.305.084-.084.222-.084.307 0 .379.377 1.008.561 1.924.561l.008.002.008-.002c.915 0 1.544-.184 1.924-.561.085-.084.223-.084.307 0zm-3.44-2.418c0-.507-.414-.919-.922-.919-.509 0-.923.412-.923.919 0 .506.414.918.923.918.508.001.922-.411.922-.918zm13.202-.93c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-.129c0-.851-.695-1.543-1.55-1.543-.417 0-.795.167-1.074.435-1.056-.695-2.485-1.137-4.066-1.194l.865-2.724 2.343.549-.003.034c0 .696.569 1.262 1.268 1.262.699 0 1.267-.566 1.267-1.262s-.568-1.262-1.267-1.262c-.537 0-.994.335-1.179.804l-2.525-.592c-.11-.027-.223.037-.257.145l-.965 3.038c-1.656.02-3.155.466-4.258 1.181-.277-.255-.644-.415-1.05-.415-.854.001-1.549.693-1.549 1.544 0 .566.311 1.056.768 1.325-.03.164-.05.331-.05.5 0 2.281 2.805 4.137 6.253 4.137s6.253-1.856 6.253-4.137c0-.16-.017-.317-.044-.472.486-.261.82-.766.82-1.353zm-4.872.141c-.509 0-.922.412-.922.919 0 .506.414.918.922.918s.922-.412.922-.918c0-.507-.413-.919-.922-.919z",
                                                   fill: "#32445F",
                                                 },
                                               }),
@@ -7348,7 +7381,7 @@
                                     a(
                                       "a",
                                       {
-                                        staticClass: "mb-connect-button",
+                                        staticClass: "mb-connect-button mt-6px",
                                         attrs: {
                                           href: "/dapp/beasties",
                                         },
@@ -7364,22 +7397,10 @@
                                       },
                                       [t._v("Play The Game")]
                                     ),
-                                  ]
-                                ),                                
-                                a(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "int-text-center mt-video wow animate__fadeInUp mb-40px",
-                                    attrs: {
-                                      "data-wow-delay": "0.25s",
-                                    },
-                                  },
-                                  [
                                     a(
                                       "a",
                                       {
-                                        staticClass: "mb-connect-button pink-sale",
+                                        staticClass: "mb-connect-button mt-6px pink-sale",
                                         attrs: {
                                           href: "https://facebook.com",
                                           target: "_blank"
@@ -7387,22 +7408,10 @@
                                       },
                                       [t._v("Pinksale")]
                                     ),
-                                  ]
-                                ),                              
-                                a(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "int-text-center mt-video wow animate__fadeInUp mb-40px",
-                                    attrs: {
-                                      "data-wow-delay": "0.25s",
-                                    },
-                                  },
-                                  [
                                     a(
                                       "a",
                                       {
-                                        staticClass: "mb-connect-button white-paper",
+                                        staticClass: "mb-connect-button mt-6px white-paper",
                                         attrs: {
                                           href: "https://facebook.com",
                                           target: "_blank"
@@ -7411,7 +7420,53 @@
                                       [t._v("Whitepaper")]
                                     ),
                                   ]
-                                ),
+                                ),                                
+                                // a(
+                                //   "div",
+                                //   {
+                                //     staticClass:
+                                //       "int-text-center mt-video wow animate__fadeInUp mb-40px",
+                                //     attrs: {
+                                //       "data-wow-delay": "0.25s",
+                                //     },
+                                //   },
+                                //   [
+                                //     a(
+                                //       "a",
+                                //       {
+                                //         staticClass: "mb-connect-button pink-sale",
+                                //         attrs: {
+                                //           href: "https://facebook.com",
+                                //           target: "_blank"
+                                //         }
+                                //       },
+                                //       [t._v("Pinksale")]
+                                //     ),
+                                //   ]
+                                // ),                              
+                                // a(
+                                //   "div",
+                                //   {
+                                //     staticClass:
+                                //       "int-text-center mt-video wow animate__fadeInUp mb-40px",
+                                //     attrs: {
+                                //       "data-wow-delay": "0.25s",
+                                //     },
+                                //   },
+                                //   [
+                                //     a(
+                                //       "a",
+                                //       {
+                                //         staticClass: "mb-connect-button white-paper",
+                                //         attrs: {
+                                //           href: "https://facebook.com",
+                                //           target: "_blank"
+                                //         }
+                                //       },
+                                //       [t._v("Whitepaper")]
+                                //     ),
+                                //   ]
+                                // ),
                                 t._m(0),
                                 t._m(1),
                               ]
@@ -7631,7 +7686,7 @@
                 },
                 [
                   t._v(
-                    "ElonxZombie is about a new 2D blockchain game with the ability to collect exclusive NFTs, rich in content and variety of gameplay. Play To Earn, Adventure, NFT Market \– Have you seen a Tweet from Elon Musk that reads \“When the Zombie Apocalypse happens, you love to buy flamethrowers. work against hordes of corpses or your money will come back\” Are you a zombie? start working so you can destroy zombies and you get your money. This game is based on Apocalypse zombies that attack humans in the era of the crumbling earth order. Elon Musk is the strongest human on earth who created a method to exterminate the zombies at the edge of earth's civilization left in ruins. Collect weapons and Elon Musk characters, to fight zombies with difficulty levels in each gameplay. And get $ElonXZombie Tokens after players complete each mission in fighting zombies in each game. Trade and earn!"
+                    "ElonxZombie is about a new 2D blockchain game with the ability to collect exclusive NFTs, rich in content and variety of gameplay. Play To Earn, Adventure, NFT Market \– Have you seen a Tweet from Elon Musk that reads \“When the Zombie Apocalypse happens, you love to buy flamethrowers. work against hordes of corpses or your money will come back\” Are you a zombie? start working so you can destroy zombies and you get your money."
                   ),
                 ]
               ),
@@ -8031,11 +8086,11 @@
                                     },
                                     on: {
                                       click: function (e) {
-                                        t.isHiddenAllBeasties = !0;
+                                        window.location.href = "https://google.com";
                                       },
                                     },
                                   },
-                                  [t._v("Show All Beasties")]
+                                  [t._v("Show All Elon-X Zombie")]
                                 ),
                           ]
                         ),
@@ -8981,37 +9036,6 @@
                                                         [
                                                           s("img", {
                                                             attrs: {
-                                                              src: a("imgprt6"),
-                                                              title:
-                                                                "Dream Boat",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
                                                               src: a("imgprt7"),
                                                               title:
                                                                 "J Capital Investment",
@@ -9074,71 +9098,9 @@
                                                         [
                                                           s("img", {
                                                             attrs: {
-                                                              src: a("imgprt9"),
-                                                              title:
-                                                                "Belo Baba",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
                                                               src: a("imgprt10"),
                                                               title:
                                                                 "Dext Force",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt11"),
-                                                              title:
-                                                                "Stredium",
                                                             },
                                                           }),
                                                         ]
@@ -9201,68 +9163,6 @@
                                                               src: a("imgprt13"),
                                                               title:
                                                                 "Yellow Block",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt14"),
-                                                              title:
-                                                                "0",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt15"),
-                                                              title:
-                                                                "BAS",
                                                             },
                                                           }),
                                                         ]
