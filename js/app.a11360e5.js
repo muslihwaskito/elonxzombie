@@ -6148,50 +6148,7 @@
                               {
                                 staticClass: "navbar-item",
                               },
-                              [
-                                t.landing_layout
-                                  ? t._e()
-                                  : a(
-                                      "a",
-                                      {
-                                        staticClass: "mb-buy-button",
-                                        attrs: {
-                                          href: "/buy",
-                                        },
-                                        on: {
-                                          click: function (e) {
-                                            return (
-                                              e.stopPropagation(),
-                                              e.preventDefault(),
-                                              t.go_to("Buy")
-                                            );
-                                          },
-                                        },
-                                      },
-                                      [t._v("Buy Tokens")]
-                                    ),
-                                t.landing_layout
-                                  ? a(
-                                      "a",
-                                      {
-                                        staticClass: "mb-buy-button",
-                                        attrs: {
-                                          href: "/dapp/inventory",
-                                        },
-                                        on: {
-                                          click: function (e) {
-                                            return (
-                                              e.stopPropagation(),
-                                              e.preventDefault(),
-                                              t.go_to("Inventory")
-                                            );
-                                          },
-                                        },
-                                      },
-                                      [t._v("Open App")]
-                                    )
-                                  : t._e(),
-                              ]
+                              []
                             ),
                           ]
                         ),
@@ -6858,10 +6815,7 @@
                               ]
                             ),
                           ]
-                        ),
-                        t._m(1),
-                        t._m(2),
-                        t._m(3),
+                        )
                       ]
                     ),
                   ]
@@ -7076,7 +7030,7 @@
                             },
                             [
                               t._v(
-                                "© 2022 — Magic Beasties. All rights reserved"
+                                "© 2022 — Elon-X Zombie. All rights reserved"
                               ),
                             ]
                           ),
@@ -7395,55 +7349,21 @@
                                           },
                                         },
                                       },
-                                      [t._v("Play The Game")]
-                                    ),
-                                    a(
-                                      "a",
-                                      {
-                                        staticClass: "mb-connect-button mt-6px pink-sale",
-                                        attrs: {
-                                          href: "https://facebook.com",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [t._v("Pinksale")]
-                                    ),
-                                    a(
-                                      "a",
-                                      {
-                                        staticClass: "mb-connect-button mt-6px white-paper",
-                                        attrs: {
-                                          href: "https://facebook.com",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [t._v("Whitepaper")]
+                                      [t._v("Presale")]
                                     ),
                                   ]
                                 ),                                
-                                // a(
-                                //   "div",
-                                //   {
-                                //     staticClass:
-                                //       "int-text-center mt-video wow animate__fadeInUp mb-40px",
-                                //     attrs: {
-                                //       "data-wow-delay": "0.25s",
-                                //     },
-                                //   },
-                                //   [
-                                //     a(
-                                //       "a",
-                                //       {
-                                //         staticClass: "mb-connect-button pink-sale",
-                                //         attrs: {
-                                //           href: "https://facebook.com",
-                                //           target: "_blank"
-                                //         }
-                                //       },
-                                //       [t._v("Pinksale")]
-                                //     ),
-                                //   ]
-                                // ),                              
+                                a(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "int-text-center mt-video wow animate__fadeInUp mb-40px inner-html-countdown",
+                                    attrs: {
+                                      "data-wow-delay": "0.25s",
+                                    },
+                                  },
+                                  []
+                                ),                              
                                 // a(
                                 //   "div",
                                 //   {
@@ -7686,7 +7606,7 @@
                 },
                 [
                   t._v(
-                    "ElonxZombie is about a new 2D blockchain game with the ability to collect exclusive NFTs, rich in content and variety of gameplay. Play To Earn, Adventure, NFT Market \– Have you seen a Tweet from Elon Musk that reads \“When the Zombie Apocalypse happens, you love to buy flamethrowers. work against hordes of corpses or your money will come back\” Are you a zombie? start working so you can destroy zombies and you get your money."
+                    "ElonxZombie is about a new blockchain game with the ability to collect exclusive NFTs, rich in content and variety of gameplay. Play To Earn, Adventure, NFT Market \– Have you seen a Tweet from Elon Musk that reads \“When the Zombie Apocalypse happens, you love to buy flamethrowers. work against hordes of corpses or your money will come back\” Are you a zombie? start working so you can destroy zombies and you get your money."
                   ),
                 ]
               ),
@@ -8001,7 +7921,7 @@
                                         s(
                                           "div",
                                           {
-                                            staticClass: "mb-nft-card-left background-"+n,
+                                            staticClass: "mb-nft-card-left background-0",
                                           },
                                           [
                                             s("LazyVideo", {
@@ -8135,7 +8055,7 @@
                             "data-wow-delay": "0.1s",
                           },
                         },
-                        [t._v("Elon-X Zombie Collection")]
+                        [t._v("Marketplace")]
                       ),
                     ]
                   ),
@@ -8758,7 +8678,7 @@
                                                     "ul",
                                                     {
                                                       staticClass:
-                                                        "Beta testing",
+                                                        "Beta testing int-text-color-dark",
                                                     },
                                                     [
                                                       s("li", [
@@ -8969,10 +8889,10 @@
                                             },
                                             [
                                               s(
-                                                "h3",
+                                                "h2",
                                                 {
                                                   staticClass:
-                                                    "int-display-3 mt-20px int-text-color-dark",
+                                                    "int-display-2 int-text-color-dark int-text-center backdrop-dark",
                                                 },
                                                 [t._v("Partners")]
                                               ),
@@ -9098,37 +9018,6 @@
                                                         [
                                                           s("img", {
                                                             attrs: {
-                                                              src: a("imgprt10"),
-                                                              title:
-                                                                "Dext Force",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
                                                               src: a("imgprt12"),
                                                               title:
                                                                 "EthicHub",
@@ -9191,102 +9080,9 @@
                                                         [
                                                           s("img", {
                                                             attrs: {
-                                                              src: a("imgprt16"),
-                                                              title:
-                                                                "Avalon Wealth Club",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt17"),
-                                                              title:
-                                                                "Excalibur Capital",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
                                                               src: a("imgprt18"),
                                                               title:
                                                                 "Ror Play",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt19"),
-                                                              title:
-                                                                "Bit Base",
                                                             },
                                                           }),
                                                         ]
@@ -9377,68 +9173,6 @@
                                                         [
                                                           s("img", {
                                                             attrs: {
-                                                              src: a("imgprt22"),
-                                                              title:
-                                                                "Leit Motiv",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt23"),
-                                                              title:
-                                                                "BCA Investment",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
                                                               src: a("imgprt24"),
                                                               title:
                                                                 "Gains Associates",
@@ -9473,37 +9207,6 @@
                                                               src: a("imgprt25"),
                                                               title:
                                                                 "The Bit TImes",
-                                                            },
-                                                          }),
-                                                        ]
-                                                      ),
-                                                    ]
-                                                  ),
-                                                  s(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "mb-feature partner-blockster wow animate__fadeInUp",
-                                                      attrs: {
-                                                        "data-wow-delay":
-                                                          "0.2s",
-                                                      },
-                                                    },
-                                                    [
-                                                      s(
-                                                        "a",
-                                                        {
-                                                          attrs: {
-                                                            href: "",
-                                                            target: "",
-                                                          },
-                                                        },
-                                                        [
-                                                          s("img", {
-                                                            attrs: {
-                                                              src: a("imgprt26"),
-                                                              title:
-                                                                "Anyswap",
                                                             },
                                                           }),
                                                         ]
@@ -9634,6 +9337,37 @@
                                                       ),
                                                     ]
                                                   ),
+                                                  s(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "mb-feature partner-blockster wow animate__fadeInUp",
+                                                      attrs: {
+                                                        "data-wow-delay":
+                                                          "0.2s",
+                                                      },
+                                                    },
+                                                    [
+                                                      s(
+                                                        "a",
+                                                        {
+                                                          attrs: {
+                                                            href: "",
+                                                            target: "",
+                                                          },
+                                                        },
+                                                        [
+                                                          s("img", {
+                                                            attrs: {
+                                                              src: a("imgprt26"),
+                                                              title:
+                                                                "Binance Smart Token",
+                                                            },
+                                                          }),
+                                                        ]
+                                                      ),
+                                                    ]
+                                                  ),
                                                 ]
                                               ),
                                             ]
@@ -9757,7 +9491,7 @@
                                                       "h4",
                                                       {
                                                         staticClass:
-                                                          "int-display-4 int-text-color-medium-purple mt-40px",
+                                                          "int-display-4 int-text-color-medium-purple",
                                                       },
                                                       [
                                                         t._v(
@@ -9845,6 +9579,24 @@
                                                     }),
                                                   ]
                                                 ),
+                                                a(
+                                                  "div",
+                                                  {
+                                                    staticClass: "btn-playgame",
+                                                  },
+                                                  [
+                                                    a(
+                                                      "span",
+                                                      {
+                                                        staticClass:
+                                                          "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
+                                                      },
+                                                      [
+                                                        a("span", [t._v("Play Game")]),
+                                                      ]
+                                                    ),
+                                                  ]
+                                                ),
                                               ]
                                             ),
                                           ]
@@ -9853,9 +9605,31 @@
                                           "div",
                                           {
                                             staticClass:
-                                              "int-card mb-feature mb-card-pvp wow animate__fadeInUp",
+                                              "int-text-center wow animate__fadeInUp mb-40px btn-playgame-desktop",
                                             attrs: {
-                                              "data-wow-delay": "0.35s",
+                                              "data-wow-delay": "0.25s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "span",
+                                              {
+                                                staticClass:
+                                                  "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
+                                              },
+                                              [
+                                                a("span", [t._v("Play Game")]),
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-card mb-feature mb-card-dungeons wow animate__fadeInUp",
+                                            attrs: {
+                                              "data-wow-delay": "0.3s",
                                             },
                                           },
                                           [
@@ -9865,39 +9639,281 @@
                                                 staticClass: "int-card-inner",
                                               },
                                               [
-                                                t._m(1),
                                                 a(
                                                   "div",
                                                   {
                                                     staticClass:
-                                                      "mb-card-pvp-description",
+                                                      "int-card-inner-left",
                                                   },
                                                   [
                                                     a(
-                                                      "div",
+                                                      "h4",
                                                       {
                                                         staticClass:
-                                                          "mb-card-pvp-description-left",
+                                                          "int-display-4 int-text-color-medium-purple",
                                                       },
                                                       [
-                                                        a(
-                                                          "h4",
-                                                          {
-                                                            staticClass:
-                                                              "int-display-4 int-text-color-medium-purple mt-40px",
-                                                          },
-                                                          [t._v("PZOMBIES DESTROY THE CITY")]
+                                                        t._v(
+                                                          "ZOMBIES DESTROY THE CITY"
                                                         ),
-                                                        t._m(2),
                                                       ]
                                                     ),
-                                                    t._m(3),
+                                                    a(
+                                                      "p",
+                                                      {
+                                                        staticClass:
+                                                          "int-text-color-dark-4 mt-40px text-color-dark",
+                                                      },
+                                                      [
+                                                        t._v(
+                                                          "The once safe and peaceful city turns into ruins when zombies attack. They are very many and scary, choose the strongest Elon to defeat the zombies that attack the city. Kill the Zombie King in a ruined City! Each player is entitled to $ElonXzombie when defeating the Zombie King of the Destroyed City"
+                                                        ),
+                                                      ]
+                                                    ),
+                                                  ]
+                                                ),
+                                                a(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "int-card-inner-right",
+                                                  },
+                                                  [
+                                                    a("img", {
+                                                      directives: [
+                                                        {
+                                                          name: "lazy",
+                                                          rawName: "v-lazy",
+                                                          value:
+                                                            t.images[
+                                                              "icon_portal2"
+                                                            ],
+                                                          expression:
+                                                            "images['icon_portal2']",
+                                                        },
+                                                      ],
+                                                    }),
+                                                  ]
+                                                ),
+                                                a(
+                                                  "div",
+                                                  {
+                                                    staticClass: "btn-playgame",
+                                                  },
+                                                  [
+                                                    a(
+                                                      "span",
+                                                      {
+                                                        staticClass:
+                                                          "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
+                                                      },
+                                                      [
+                                                        a("span", [t._v("Play Game")]),
+                                                      ]
+                                                    ),
                                                   ]
                                                 ),
                                               ]
                                             ),
                                           ]
                                         ),
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-text-center wow animate__fadeInUp mb-40px btn-playgame-desktop",
+                                            attrs: {
+                                              "data-wow-delay": "0.25s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "span",
+                                              {
+                                                staticClass:
+                                                  "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
+                                              },
+                                              [
+                                                // a("img", {
+                                                //   attrs: {
+                                                //     src: window.location.origin,
+                                                //   },
+                                                // }),
+                                                a("span", [t._v("Play Game")]),
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-card mb-feature mb-card-dungeons wow animate__fadeInUp",
+                                            attrs: {
+                                              "data-wow-delay": "0.3s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "div",
+                                              {
+                                                staticClass: "int-card-inner",
+                                              },
+                                              [
+                                                a(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "int-card-inner-left",
+                                                  },
+                                                  [
+                                                    a(
+                                                      "h4",
+                                                      {
+                                                        staticClass:
+                                                          "int-display-4 int-text-color-medium-purple",
+                                                      },
+                                                      [
+                                                        t._v(
+                                                          "MOON ZOMBIES"
+                                                        ),
+                                                      ]
+                                                    ),
+                                                    a(
+                                                      "p",
+                                                      {
+                                                        staticClass:
+                                                          "int-text-color-dark-4 mt-40px text-color-dark",
+                                                      },
+                                                      [
+                                                        t._v(
+                                                          "The attack did not attack the inhabitants of the earth, but the zombies have penetrated throughout outer space, the moon where zombies have been detected. Elon with his Spacexx plane flew to the moon carrying millions or billions of humans on earth to save the earth's inhabitants from zombie attacks, but on the moon millions of zombies also attacked, choose elon to eradicate/destroy the zombie king on the moon. Each player will get $elonxZombie when defeating Zombie King on the moon!!"
+                                                        ),
+                                                      ]
+                                                    ),
+                                                  ]
+                                                ),
+                                                a(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "int-card-inner-right",
+                                                  },
+                                                  [
+                                                    a("img", {
+                                                      directives: [
+                                                        {
+                                                          name: "lazy",
+                                                          rawName: "v-lazy",
+                                                          value:
+                                                            t.images[
+                                                              "icon_portal3"
+                                                            ],
+                                                          expression:
+                                                            "images['icon_portal3']",
+                                                        },
+                                                      ],
+                                                    }),
+                                                  ]
+                                                ),
+                                                a(
+                                                  "div",
+                                                  {
+                                                    staticClass: "btn-playgame",
+                                                  },
+                                                  [
+                                                    a(
+                                                      "span",
+                                                      {
+                                                        staticClass:
+                                                          "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
+                                                      },
+                                                      [
+                                                        a("span", [t._v("Play Game")]),
+                                                      ]
+                                                    ),
+                                                  ]
+                                                ),
+                                              ]
+                                            ),
+                                          ]
+                                        ),
+                                        a(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "int-text-center wow animate__fadeInUp mb-40px btn-playgame-desktop",
+                                            attrs: {
+                                              "data-wow-delay": "0.25s",
+                                            },
+                                          },
+                                          [
+                                            a(
+                                              "span",
+                                              {
+                                                staticClass:
+                                                  "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
+                                              },
+                                              [
+                                                // a("img", {
+                                                //   attrs: {
+                                                //     src: window.location.origin,
+                                                //   },
+                                                // }),
+                                                a("span", [t._v("Play Game")]),
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        // a(
+                                        //   "div",
+                                        //   {
+                                        //     staticClass:
+                                        //       "int-card mb-feature mb-card-pvp wow animate__fadeInUp",
+                                        //     attrs: {
+                                        //       "data-wow-delay": "0.35s",
+                                        //     },
+                                        //   },
+                                        //   [
+                                        //     a(
+                                        //       "div",
+                                        //       {
+                                        //         staticClass: "int-card-inner",
+                                        //       },
+                                        //       [
+                                        //         t._m(1),
+                                        //         a(
+                                        //           "div",
+                                        //           {
+                                        //             staticClass:
+                                        //               "mb-card-pvp-description",
+                                        //           },
+                                        //           [
+                                        //             a(
+                                        //               "div",
+                                        //               {
+                                        //                 staticClass:
+                                        //                   "mb-card-pvp-description-left",
+                                        //               },
+                                        //               [
+                                        //                 a(
+                                        //                   "h4",
+                                        //                   {
+                                        //                     staticClass:
+                                        //                       "int-display-4 int-text-color-medium-purple mt-40px",
+                                        //                   },
+                                        //                   [t._v("ZOMBIES DESTROY THE CITY")]
+                                        //                 ),
+                                        //                 t._m(2),
+                                        //               ]
+                                        //             ),
+                                        //             t._m(3),
+                                        //           ]
+                                        //         ),
+                                        //       ]
+                                        //     ),
+                                        //   ]
+                                        // ),
                                       ]
                                     ),
                                   ]
@@ -10140,7 +10156,7 @@
                           staticClass:
                             "int-display-2 int-text-color-dark int-text-center backdrop-dark",
                         },
-                        [t._v("ElonXZombie GAME ROADMAP")]
+                        [t._v("Elon-X Zombie Play Game")]
                       ),
                     ]
                   ),
@@ -10325,7 +10341,9 @@
         icon_swords: wt + "icons/emoji_swords.png",
         icon_crown: wt + "icons/emoji_crown.png",
         icon_pvp: wt + "icons/pvp_skills_tiny.png",
-        icon_portal: window.location.origin + "/img/img-feature.jpg",
+        icon_portal: window.location.origin + "/img/roadmap1.jpeg",
+        icon_portal2: window.location.origin + "/img/roadmap2.jpg",
+        icon_portal3: window.location.origin + "/img/roadmap3.jpg",
       },
       kt = {
         name: "Features",
@@ -31710,7 +31728,7 @@
   },
   6: function (t, e) {},
   6020: function (t, e, a) {
-    t.exports = a.p + "img/img-ecosystem.jpg";
+    t.exports = a.p + "img/img-ecosystem.png";
   },
   "60aa": function (t, e, a) {
     t.exports = a.p + "img/icon_usd_color.7bb6611b.svg";
@@ -31943,7 +31961,7 @@
     t.exports = a.p + "img/prt25.jpeg";
   },
   imgprt26: function (t, e, a) {
-    t.exports = a.p + "img/prt26.png";
+    t.exports = a.p + "img/binance.png";
   },
   imgprt27: function (t, e, a) {
     t.exports = a.p + "img/prt27.png";

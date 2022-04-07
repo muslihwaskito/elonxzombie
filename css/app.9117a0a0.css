@@ -606,7 +606,7 @@ screen and (min-width:769px) {
 }
 
 .int-footer-first .int-footer-socials-wrapper a.int-icon-circle:hover>svg>path {
-    fill: #ff007a !important
+    fill: #5e1874 !important
 }
 
 .int-after-footer-wrapper {
@@ -712,7 +712,7 @@ th:not([align]) {
 }
 
 body {
-    background-image: url(/img/background-5.jpg);
+    background-image: url(/img/background.jpg);
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
@@ -1204,7 +1204,7 @@ screen and (min-width:769px) {
 }
 
 .int-text-color-medium-purple {
-    color: #9370db
+    color: #00de74
 }
 
 h1.int-display-1 {
@@ -2058,11 +2058,11 @@ a.mb-buy-button.mb-buy-button-disabled {
 }
 
 a.mb-connect-button {
-    padding: 12px 20px;
+    padding: 17px 55px;
     color: #fff;
     background: linear-gradient(100.33deg, #5a1672 1.72%, #b8539e 112.18%);
     box-shadow: 4px 2px 8px rgba(0, 223, 116, .25), 2px 4px 8px rgba(0, 122, 255, .25);
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 20px
 }
 
@@ -2216,7 +2216,6 @@ a.mb-exchange-button span.mb-exchange-button-text>span.slippage>span.recommendat
 
 .int-card,
 .int-small-card {
-    background-image: linear-gradient(174deg, #ffd5d5 80%, #fe83b1 100%, hsl(0deg 0% 100% / 0%) 0);
     border-radius: 20px;
     position: relative;
     /* background: #fff; */
@@ -2309,7 +2308,7 @@ span.int-status-badge>span {
 }
 
 span.int-status-badge.int-status-badge-dark>span {
-    color: #1c2434
+    color: #ffffff
 }
 
 span.int-status-badge.int-status-badge-light>span {
@@ -3468,7 +3467,7 @@ screen and (min-width:769px) {
     font-weight: 700;
     font-size: 20px;
     line-height: 44px;
-    color: #252f44
+    color: #ffffff
 }
 
 @media screen and (max-width:768px) {
@@ -3504,7 +3503,7 @@ screen and (min-width:769px) {
     width: 100%;
     height: 100%;
     max-width: 1080px;
-    background: #fff;
+    background: #6c3030;
     border-radius: 10px;
     position: relative;
     overflow: hidden
@@ -3602,7 +3601,7 @@ a.show-all-beasties-link {
     position: absolute;
     top: 0;
     left: calc(50% - 10px);
-    background: #fa1c6c;
+    background: #5e1874;
     box-shadow: inset 0 5px 5px rgba(0, 0, 0, .25)
 }
 
@@ -3614,7 +3613,7 @@ a.show-all-beasties-link {
     position: absolute;
     top: 0;
     left: calc(50% - 1px);
-    background: linear-gradient(180deg, rgba(250, 28, 108, .5) 80%, rgba(250, 28, 108, 0));
+    background: linear-gradient(180deg, rgb(94 24 116) 80%, rgba(250, 28, 108, 0));
     z-index: -1
 }
 
@@ -3638,7 +3637,7 @@ screen and (min-width:769px) {
     width: 200px;
     height: 1px;
     position: absolute;
-    background: rgba(250, 28, 108, .5);
+    background: rgb(88 22 108);
     top: 34px;
     z-index: -1
 }
@@ -3656,7 +3655,7 @@ screen and (min-width:769px) {
     border-radius: 50%;
     position: absolute;
     top: 30px;
-    background: #fa1c6c;
+    background: #5e1874;
     box-shadow: inset 0 4px 4px rgba(0, 0, 0, .25)
 }
 
@@ -3723,7 +3722,7 @@ screen and (min-width:769px) {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: #fff;
+    background: #6c3030;
     box-shadow: 2px 2px 15px rgba(50, 68, 95, .1);
     border-radius: 20px;
     padding: 20px 40px
@@ -3799,7 +3798,7 @@ ul.mb-roadmap-list-wrapper {
 
 ul.mb-roadmap-list-wrapper li {
     font-family: Poppins, Roboto, sans-serif;
-    color: #32445f;
+    color: #ffffff;
     line-height: 150%
 }
 
@@ -7300,11 +7299,11 @@ screen and (min-width:769px) {
 }
 
 .int-card-inner.int-text-center .int-display-3 {
-    color: #2d0062;
+    color: #ffffff;
 }
 
 .backdrop-dark {
-    backdrop-filter: brightness(0.5);
+    backdrop-filter: contrast(0.1);
 }
 
 .font-vt323 {
@@ -7317,6 +7316,53 @@ screen and (min-width:769px) {
     margin-top: 70px;
 }
 
+.p-14-20 {
+    padding: 14px 20px !important;
+}
+
+@media print,
+screen and (min-width:769px) {
+    .btn-playgame {
+        display: none
+    }   
+    
+    .btn-playgame-desktop {
+        display: flex;
+        margin: auto;
+    }
+}
+
+.container-count-down {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    align-items: center;
+    display: flex;
+}
+
+#countdown {
+    margin: auto;
+}
+
+.container-count-down li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1.5em;
+    text-transform: uppercase;
+    backdrop-filter: contrast(0.5);
+}
+
+.container-count-down li span {
+    display: block;
+    font-size: 3rem;
+}
+
 @media screen and (max-width:768px) {
     .mb-hero-mobile .mb-hero-mobile-image {
         position: relative;
@@ -7324,7 +7370,7 @@ screen and (min-width:769px) {
     }
 
     .hero-img-main {
-        width: 90%;
+        width: 100%;
         margin-top: 40px;
     }
 
@@ -7333,10 +7379,6 @@ screen and (min-width:769px) {
         font-size: 70px !important;
         font-weight: bold !important;
     }
-
-    body {
-        background-image: url(/img/background-6.jpg);
-    }    
 
     .mb-partners-wrapper .mb-press-wrapper {
         grid-template-columns: repeat(3, 1fr)
@@ -7348,6 +7390,28 @@ screen and (min-width:769px) {
 
     .int-card.mb-feature.mb-card-dungeons>.int-card-inner>.int-card-inner-right>img {
         max-width: 100%
+    }
+
+    .mb-nft-card-wrapper .mb-nft-card-left video {
+        max-height: 150px;
+    }
+
+    .btn-playgame {
+        grid-row: none;
+        margin: auto;
+        display: flex;
+    }
+    
+    .btn-playgame-desktop {
+        display: none;
+    }
+
+    .container-count-down li {
+        font-size: 0.8em;
+    }
+
+    .container-count-down li span {
+        font-size: 1.5rem;
     }
 }
 
@@ -7364,11 +7428,11 @@ screen and (min-width:769px) {
 }
 
 .text-color-dark {
-    color: #32445f;
+    color: #ffffff;
 }
 
 .background-0 {
-    background-image: linear-gradient(to bottom right, #4c3a46, #978ca9);
+    background-image: linear-gradient(to bottom right, #2c1313, #957373);
 }
 
 .background-1 {
