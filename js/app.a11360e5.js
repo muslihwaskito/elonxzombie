@@ -7198,7 +7198,7 @@
                                 playsinline: !0,
                                 loop: !0,
                                 autoplay: !0,
-                                muted: !0,
+                                muted: !1,
                               }
                             },
                           })
@@ -8006,7 +8006,7 @@
                                     },
                                     on: {
                                       click: function (e) {
-                                        window.location.href = "https://google.com";
+                                        window.location.href = "https://opensea.io/ElonXZombie";
                                       },
                                     },
                                   },
