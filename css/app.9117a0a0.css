@@ -7472,3 +7472,7 @@ screen and (min-width:769px) {
 .background-image-none {
     background-image: none;
 }
+
+.text-color-white {
+    color: #ffffff !important;
+}

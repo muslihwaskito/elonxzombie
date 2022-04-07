@@ -6254,14 +6254,12 @@
                                       {
                                         staticClass: "int-navbar-menu-item",
                                         attrs: {
-                                          href: "/dapp/inventory",
+                                          href: "/play",
                                         },
                                         on: {
                                           click: function (e) {
                                             return (
-                                              e.stopPropagation(),
-                                              e.preventDefault(),
-                                              t.go_to_from_mobile("Inventory")
+                                              window.location.href = '/play'
                                             );
                                           },
                                         },
@@ -9524,16 +9522,14 @@
                                                             staticClass:
                                                               "int-span-link",
                                                             attrs: {
-                                                              href: "/dapp/pve",
+                                                              href: "/play",
                                                             },
                                                             on: {
                                                               click: function (
                                                                 e
                                                               ) {
                                                                 return (
-                                                                  e.stopPropagation(),
-                                                                  e.preventDefault(),
-                                                                  t.go_to("PVE")
+                                                                  window.location.href = '/play'
                                                                 );
                                                               },
                                                             },
@@ -9618,7 +9614,29 @@
                                                   "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
                                               },
                                               [
-                                                a("span", [t._v("Play Game")]),
+                                                a(
+                                                  "a",
+                                                  {
+                                                    staticClass:
+                                                      "int-span-link text-color-white",
+                                                    attrs: {
+                                                      href: "/play",
+                                                    },
+                                                    on: {
+                                                      click: function (
+                                                        e
+                                                      ) {
+                                                        return (
+                                                          window.location.href = '/play'
+                                                        );
+                                                      },
+                                                    },
+                                                  },
+                                                  [
+                                                    a("span", [t._v("Play Game")]),
+                                                  ],
+                                                  1
+                                                ),
                                               ]
                                             )
                                           ]
