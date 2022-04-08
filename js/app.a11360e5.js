@@ -5860,7 +5860,7 @@
     a("140d");
   },
   "49e2": function (t, e, a) {
-    t.exports = a.p + "img/video.mp4";
+    t.exports = a.p + "img/banner-trailer.mp4";
   },
   5: function (t, e) {},
   "512d": function (t, e, a) {},
