@@ -7313,37 +7313,28 @@
                                 staticClass: "column",
                               },
                               [
-                                // a(
-                                //   "div",
-                                //   {
-                                //     staticClass:
-                                //       "int-text-center mt-video wow animate__fadeInUp mb-40px",
-                                //     attrs: {
-                                //       "data-wow-delay": "0.25s",
-                                //     },
-                                //   },
-                                //   [
-                                //     a(
-                                //       "a",
-                                //       {
-                                //         staticClass: "mb-connect-button mt-6px",
-                                //         attrs: {
-                                //           href: "https://www.pinksale.finance",
-                                //         },
-                                //         on: {
-                                //           click: function (e) {
-                                //             return (
-                                //               e.stopPropagation(),
-                                //               e.preventDefault(),
-                                //               t.go_to("Beasties")
-                                //             );
-                                //           },
-                                //         },
-                                //       },
-                                //       [t._v("Pinksale")]
-                                //     ),
-                                //   ]
-                                // ),                                
+                                a(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "int-text-center mt-video wow animate__fadeInUp mb-40px",
+                                    attrs: {
+                                      "data-wow-delay": "0.25s",
+                                    },
+                                  },
+                                  [
+                                    a(
+                                      "a",
+                                      {
+                                        staticClass: "mb-connect-button mt-6px",
+                                        attrs: {
+                                          href: "https://www.pinksale.finance/#/launchpad/0xE9F108a1330Df5B3A7Ec699dea13054aD55B94Fc?chain=BSC",
+                                        }
+                                      },
+                                      [t._v("Presale")]
+                                    ),
+                                  ]
+                                ),                                
                                 a(
                                   "div",
                                   {
