@@ -6202,9 +6202,7 @@
                                       {
                                         on: {
                                           click: function (e) {
-                                            return t.go_to_section_from_mobile(
-                                              "#token"
-                                            );
+                                            window.location.href = "https://www.pinksale.finance/#/launchpad/0xE9F108a1330Df5B3A7Ec699dea13054aD55B94Fc?chain=BSC";
                                           },
                                         },
                                       },
