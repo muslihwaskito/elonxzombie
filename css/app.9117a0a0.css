@@ -7476,3 +7476,27 @@ screen and (min-width:769px) {
 .text-color-white {
     color: #ffffff !important;
 }
+
+#btn-connect {
+    cursor: pointer;
+}
+
+.web3modal-modal-card {
+    background-color: rgb(54 28 28) !important;
+}
+
+.web3modal-provider-container {
+    background-color: rgb(108 48 48) !important;
+}
+
+.web3modal-provider-name {
+    color: rgb(255 255 255) !important;
+    font-family: 'VT323';
+    font-size: 40px !important;
+    letter-spacing: 1px;
+}
+
+.web3modal-provider-description {
+    font-family: 'VT323';
+    font-size: 25px !important;
+}

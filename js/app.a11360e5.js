@@ -5860,7 +5860,7 @@
     a("140d");
   },
   "49e2": function (t, e, a) {
-    t.exports = a.p + "img/video-test.mp4";
+    t.exports = a.p + "img/video.mp4";
   },
   5: function (t, e) {},
   "512d": function (t, e, a) {},
@@ -6254,17 +6254,10 @@
                                       {
                                         staticClass: "int-navbar-menu-item",
                                         attrs: {
-                                          href: "/play",
-                                        },
-                                        on: {
-                                          click: function (e) {
-                                            return (
-                                              window.location.href = '/play'
-                                            );
-                                          },
-                                        },
+                                          href: "https://medium.com/@ElonXZombie"
+                                        }
                                       },
-                                      [a("span", [t._v("Launch App")])]
+                                      [a("span", [t._v("Whitepaper")])]
                                     ),
                                   ]
                                 )
@@ -9528,9 +9521,8 @@
                                                               click: function (
                                                                 e
                                                               ) {
-                                                                return (
-                                                                  window.location.href = '/play'
-                                                                );
+                                                                e.preventDefault();
+                                                                onConnect();
                                                               },
                                                             },
                                                           },
@@ -9588,7 +9580,28 @@
                                                           "int-status-badge int-status-badge-active int-status-badge-dark p-14-20",
                                                       },
                                                       [
-                                                        a("span", [t._v("Play Game")]),
+                                                        a(
+                                                          "a",
+                                                          {
+                                                            staticClass:
+                                                              "int-span-link text-color-white",
+                                                            attrs: {
+                                                              href: "/play",
+                                                            },
+                                                            on: {
+                                                              click: function (
+                                                                e
+                                                              ) {
+                                                                e.preventDefault();
+                                                                onConnect();
+                                                              },
+                                                            },
+                                                          },
+                                                          [
+                                                            a("span", [t._v("Play Game")]),
+                                                          ],
+                                                          1
+                                                        ),
                                                       ]
                                                     ),
                                                   ]
@@ -9620,17 +9633,18 @@
                                                     staticClass:
                                                       "int-span-link text-color-white",
                                                     attrs: {
-                                                      href: "/play",
+                                                      // href: "/play",
+                                                      id: "btn-connect"
                                                     },
-                                                    on: {
-                                                      click: function (
-                                                        e
-                                                      ) {
-                                                        return (
-                                                          window.location.href = '/play'
-                                                        );
-                                                      },
-                                                    },
+                                                    // on: {
+                                                    //   click: function (
+                                                    //     e
+                                                    //   ) {
+                                                    //     return (
+                                                    //       window.location.href = '/play'
+                                                    //     );
+                                                    //   },
+                                                    // },
                                                   },
                                                   [
                                                     a("span", [t._v("Play Game")]),

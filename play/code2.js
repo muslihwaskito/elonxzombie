@@ -84,7 +84,7 @@ gdjs.choose_95weaponCode.mapOfGDgdjs_46choose_9595weaponCode_46GDRightArrowRound
 gdjs.choose_95weaponCode.condition0IsTrue_0.val = false;
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition0IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10057388);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10703820);
 }
 }if (gdjs.choose_95weaponCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.choose_95weaponCode.GDRightArrowRoundButtonObjects1, gdjs.choose_95weaponCode.GDRightArrowRoundButtonObjects2);
@@ -107,7 +107,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBut
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8956300);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10704892);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -131,7 +131,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBut
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8957244);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10705940);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -153,7 +153,7 @@ if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
 gdjs.choose_95weaponCode.condition0IsTrue_0.val = false;
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition0IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9107556);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10708500);
 }
 }if (gdjs.choose_95weaponCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.choose_95weaponCode.GDLeftArrowRoundButtonObjects1, gdjs.choose_95weaponCode.GDLeftArrowRoundButtonObjects2);
@@ -176,7 +176,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBut
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9109436);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10709572);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -200,7 +200,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBut
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8954516);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10710620);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -392,7 +392,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVari
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9414340);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10715396);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -423,7 +423,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVari
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8054380);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10716876);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -454,7 +454,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVari
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9905860);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10718108);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -485,7 +485,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVari
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8998468);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10719340);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -516,7 +516,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVari
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8994148);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10720572);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
@@ -547,7 +547,7 @@ gdjs.choose_95weaponCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVari
 }if ( gdjs.choose_95weaponCode.condition0IsTrue_0.val ) {
 {
 {gdjs.choose_95weaponCode.conditionTrue_1 = gdjs.choose_95weaponCode.condition1IsTrue_0;
-gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7874308);
+gdjs.choose_95weaponCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10721804);
 }
 }}
 if (gdjs.choose_95weaponCode.condition1IsTrue_0.val) {
